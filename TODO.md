@@ -1,0 +1,22 @@
+# Homepage delivery checklist
+
+- [ ] Build one complete homepage only, without additional routes or fake booking forms.
+  - The homepage contains navigation, hero, clinic introduction, focus areas, trust guidance, enquiry journey, appointment CTA, contact information and footer sections.
+  - Navigation items scroll to same-page anchors and no separate About, Services, Conditions or Contact pages are created.
+- [ ] Preserve verified clinic information and avoid unsupported claims.
+  - Use “Mercedarian Spine Specialist Clinic”, the supplied clinic description and `0244276414`.
+  - Do not invent doctor names, qualifications, certifications, years of experience, affiliations, testimonials, success rates, awards, address or opening hours.
+- [ ] Integrate the original clinic logo and suitable imagery.
+  - Use the repository-provided logo without distorting its proportions.
+  - Use a non-graphic, medically appropriate consultation image only where repository photography is unavailable.
+- [ ] Implement functional, accessible interactions.
+  - Include responsive mobile navigation, smooth anchor scrolling, click-to-call, WhatsApp enquiry, hover states and visible keyboard focus states.
+  - Appointment CTAs initiate phone or WhatsApp enquiries rather than pretending to book an appointment.
+- [ ] Implement responsive and performant presentation.
+  - Support desktop, laptop, tablet and mobile layouts without horizontal overflow.
+  - Use Next Image, responsive sizing, minimal client-side JavaScript and reduced-motion support.
+- [ ] Implement homepage SEO.
+  - Add title, description, canonical placeholder, Open Graph metadata, semantic headings, image alt text and MedicalClinic JSON-LD using only verified fields.
+- [ ] Validate and deliver to GitHub.
+  - Run dependency installation, lint, TypeScript checks and production build.
+  - Commit the completed source and push it to the existing `main` branch without deploying to Vercel.
